@@ -17,5 +17,14 @@ public:
 	Point operator*(Point& b);
 	Point operator-(Point& b);
 	Point operator/(Point& b);
+
+	Point operator+(int a);
+	bool operator>(Point& b);
+	bool operator<(Point& b);
+	bool operator==(Point& b);
+	bool operator!=(Point& b);
+	bool operator>=(Point& b);
+	bool operator<=(Point& b);
+	
 };
 

@@ -69,4 +69,75 @@ Point Point::operator/(Point &b)
 	return res;
 }
 
+Point Point::operator+(int a)
+{
+    return Point(x+a, y+a);
+}
+
+bool Point::operator>(Point &b)
+{
+	if(x>b.x && y > b.y)
+	{
+		return true;
+	}
+    else {
+		return false;
+	}
+}
+
+bool Point::operator<(Point &b)
+{
+    if(x<b.x && y < b.y)
+	{
+		return true;
+	}
+    else {
+		return false;
+	}
+}
+
+bool Point::operator==(Point &b)
+{
+    if(x==b.x && y==b.y)
+	{
+		return true;
+	}
+    else {
+		return false;
+	}
+}
+
+bool Point::operator!=(Point &b)
+{
+    if(x!=b.x && y!=b.y)
+	{
+		return true;
+	}
+    else {
+		return false;
+	}
+}
+
+bool Point::operator>=(Point &b)
+{
+    if(x>=b.x && y>=b.y)
+	{
+		return true;
+	}
+    else {
+		return false;
+	}
+}
+
+bool Point::operator<=(Point &b)
+{
+    if(x<=b.x && y<=b.y)
+	{
+		return true;
+	}
+    else {
+		return false;
+	}
+}
+
 int Point::count = 0;

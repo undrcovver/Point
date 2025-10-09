@@ -20,6 +20,34 @@ int main()
 	Point d3 = a / b;
 	d3.Print();
 
+	d = a + 10;
+	d.Print();
+
+	if (a>b)
+	{
+		cout << "a>b\n";
+	}
+	else if (a < b)
+	{
+		cout << "a<b\n";
+	}
+	else if (a == b)
+	{
+		cout << "a<b\n";
+	}
+	else if (a != b)
+	{
+		cout << "a<b\n";
+	}
+	else if (a >= b)
+	{
+		cout << "a<b\n";
+	}
+	else if (a <= b)
+	{
+		cout << "a<b\n";
+	}
+
 
 
 }
