@@ -48,9 +48,9 @@ int main()
 		cout << "a<=b\n";
 	}
 
-	Point c = ++a;
-	c.Print();
-	a.Print();
+	// Point c = ++a;
+	// c.Print();
+	// a.Print();
 
 	Point c = --a;
 	c.Print();

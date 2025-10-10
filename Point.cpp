@@ -150,7 +150,7 @@ Point &Point::operator++()
 Point &Point::operator--()
 {
     x-=2;
-	y-=7;
+	y-=2;
 	return *this;
 }
 
