@@ -25,6 +25,9 @@ public:
 	bool operator!=(Point& b);
 	bool operator>=(Point& b);
 	bool operator<=(Point& b);
+
+	Point& operator++();
+	Point& operator--();
 	
 };
 

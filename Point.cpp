@@ -140,4 +140,18 @@ bool Point::operator<=(Point &b)
 	}
 }
 
+Point &Point::operator++()
+{
+	x+=10;
+	y+=10;
+    return *this;
+}
+
+Point &Point::operator--()
+{
+    x-=2;
+	y-=2;
+	return *this;
+}
+
 int Point::count = 0;
