@@ -31,6 +31,26 @@ void Point::Print()
 	cout << "X: " << x << "\tY: " << y << endl;
 }
 
+void Point::SetX(int a)
+{
+	x = a;	
+}
+
+void Point::SetY(int a)
+{
+	y = a;
+}
+
+int Point::GetX()
+{
+	return x;
+}
+
+int Point::GetY()
+{
+    return y;
+}
+
 void Point::PrintCount()
 {
 	cout << "Count = " << count << endl;

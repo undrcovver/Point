@@ -11,6 +11,12 @@ public:
 	void Init(); 
 	void Print();
 
+	void SetX(int a);
+	void SetY(int a);
+
+	int GetX();
+	int GetY();
+
 	static void PrintCount();
 
 	Point operator+(Point& b);
